@@ -13,3 +13,28 @@ dog1.speak()
 dog1.show_breed()
 dog2.speak()
 dog2.show_breed()
+
+#Student Details:
+
+class Student:
+    def __init__(self, name, age, marks):
+        self.name = name
+        self.age = age
+        self.marks = marks
+
+    def display_details(self):
+        print("Student Details")
+        print("----------------")
+        print("Name:", self.name)
+        print("Age:", self.age)
+        print("Marks:", self.marks)
+        print()
+
+
+# Create two student objects
+student1 = Student("Jaya", 20, 85.5)
+student2 = Student("Kavin", 21, 90.0)
+
+# Display student details
+student1.display_details()
+student2.display_details()
